@@ -17,14 +17,14 @@ class Responder
     @matches = []
 
     # insert a regexp to match whatever you are looking for in a comment
-    @regexp = /mind[ -]boggling/i
+    @regexp = 
 
     # the response you want to write upon finding a match
-    @response = "It's actually 'mind bottling', like when your thoughts get all trapped up like in a bottle."
+    @response = 
 
     # user and password info for login
-    @user = "mind_bottler"
-    @password = "iluvches"
+    @user = 
+    @password =
 
     #the modhash is received from the reddit server upon login and is used to
     #identify the user when making comments/posts etc
